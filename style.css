@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./backround-image/pexels-cátia-matos-1072179.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    min-width: 250px;
+    min-height: 500px;
+}
+.all{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 80vh;
+    width: 22vw;
+    min-height: 343px;
+    min-width: 290px;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    position: relative;
+    width: 100%;
+}
+h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 15vh;
+    min-height: 20px;
+    color: lightgreen;
+    min-width: 280px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.container{
+    flex: 1;
+    position: relative;
+    height: 50vh;
+    width: 20vw;
+    min-height: 333px;
+    min-width: 280px;
+    border: 2px solid lightgreen;
+    background-color:rgba(144, 238, 144, 0.04);
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px 0 20px;
+    overflow: hidden;
+}
+h2{
+    color: lightgreen;
+    margin: 10px auto;
+    font-size: 22px;
+    font-weight: 550;
+}
+#input{
+    border: 1px solid rgba(144, 238, 144, 0.9);
+    outline: none;
+    border-radius: 2px;
+    background-color: transparent;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 5px 10px;
+}
+button{
+    background-color: rgba(144, 238, 144, 0.2);
+    color: lightgreen;
+    margin: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 4px 6px;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+#result{
+    color: lightgreen;
+    margin: 10px 8px;
+    font-size:18px;
+    font-weight: 550;
+    overflow: hidden;
+    word-break:keep-all;
+}
