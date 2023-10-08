@@ -35,11 +35,11 @@ function show(){
         }
         if(inputVal === polyndrome){
         result.style.color = "lightgreen";
-        result.innerText = "Yeah, this is a Polyndrome.";
+        result.innerText = "Yeah, this is a Palyndrome.";
         }
         else{
         result.style.color = "red";
-        result.innerHTML = "Oh No!, this is not a Polyndrome.";
+        result.innerHTML = "Oh No!, this is not a Palyndrome.";
         }
     }
 }    
